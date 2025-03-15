@@ -1,0 +1,68 @@
+selecteur {
+	propriete: valeur;
+	}
+body {
+	margin:0;
+    img {
+        border: 2px dashed white;
+        border-radius: 25px;
+        }
+    img:hover{
+            transform: rotate(360deg);
+            transition: 3s;
+            }
+}
+p {
+	margin: 10px auto;		/* 10px de marge au-dessus et en-dessous ; centrage horizontal automatique */
+	padding: 5px;
+	width: 250px;
+	border: 4px ridge white ;
+	}
+
+footer {
+    color: palevioletred ;
+}
+header.header {
+    display: flex;
+    align-items: center;
+    
+}
+h1 {
+	border-left : 5px ridge;
+	border-bottom : 5px ridge;
+    border-radius : 5px;
+	color : grey;
+   
+	}
+
+code {
+	color: green;
+	border-bottom: 2px solid red;
+	}
+    
+
+section.top-page {
+    background : rgb(145, 194, 213)
+   
+}
+/* page de bienvenue (landing page) */
+
+.big-title {
+    color: rgb(128, 235, 214);
+    font-size: 100px;
+}
+
+/* menu de navigation */
+nav.nav {
+    justify-content: space-between;
+    display: flex ;
+    list-style: none;
+    width: 800px;
+    margin-left: 80px;
+}
+
+nav.nav li {
+    color: black;
+}
+ 
+width: 150px

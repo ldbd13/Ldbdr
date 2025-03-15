@@ -1,0 +1,87 @@
+
+selecteur {
+	propriete: valeur;
+	}
+ul {
+    background-color: pink;
+	margin: 10px aut 
+     
+    o;		/* 10px de marge au-dessus et en-dessous ; centrage horizontal automatique */
+	padding: 120px;
+	width: 260px;
+    height: auto;
+	border: 4px ridge  ;
+    background-color: whitesmoke ;
+    list-style: none;
+}
+h2 {
+    text-decoration: underline;
+}
+body {
+	margin:0;
+    background-color: pink;
+    img {
+        border: 2px dashed rgb(46, 74, 169);
+        border-radius: 35px;
+        }
+    img:hover{
+            transform: rotate(360deg);
+            transition: 3s;
+            }
+}
+p {
+    background-color: whitesmoke;
+	margin: 10px aut
+    o;		/* 10px de marge au-dessus et en-dessous ; centrage horizontal automatique */
+	padding: 5px;
+	width: 250px;
+	border: 4px ridge whitesmoke ;
+	}
+
+footer {
+    background-color: palevioletred;
+    color: palevioletred ;
+}
+header.header {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    
+}
+h1 {
+	border-left : 5px ridge;
+	border-bottom : 5px ridge;
+    border-radius : 5px;
+	color : rgb(21, 66, 110);
+   
+	}
+
+code {
+	color: green;
+	border-bottom: 2px solid red;
+	}
+    
+
+section.top-page {
+    background : rgb(145, 194, 213)
+   
+}
+/* page de bienvenue (landing page) */
+
+.big-title {
+    color: rgb(128, 235, 214);
+    font-size: 100px;
+}
+
+/* menu de navigation */
+nav.nav {
+    justify-content: space-between;
+    display: flex ;
+    list-style: none;
+    width: 800px;
+    margin-left: 80px;
+}
+
+nav.nav li {
+    color: black;
+}
